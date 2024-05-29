@@ -28,7 +28,7 @@ a {
 /* MAIN-HERO */
 .main-hero {
   width: 1440px;
-  height: 550px;
+  height: 548px;
   background-color: #252420;
 
 
@@ -72,4 +72,50 @@ hr {
   width: 1440px;
   height: 936px;
   background-color: #fff;
+}
+
+.main-features-text {
+  width: 435px;
+  height: 172px;
+  color: #000;
+}
+
+.main-features-information {
+  width: 1100px;
+  height: 245px;
+}
+
+.main-features-about {
+  width: 340px;
+  height: 245px;
+}
+
+.main-icon {
+  width: 100px;
+  height: 100px;
+  background-color: #eed1b8;
+  color: #ff7500
+}
+
+.features-booking {
+  width: 214px;
+  height: 29px;
+  color: #000;
+}
+
+.features-about-text {
+  width: 314px;
+  height: 72px;
+  color: #000;
+}
+
+.features-books {
+  width: 170px;
+  height: 29px;
+
+}
+
+.features-delivery {
+  width: 196px;
+  height: 29px;
 }
