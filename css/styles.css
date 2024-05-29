@@ -1,4 +1,5 @@
-/* .header {
+/* HEADER */
+.header {
   width: 1440px;
   height: 97px;
   background-color: #fff;
@@ -16,18 +17,16 @@
   background-color: #fff;
 }
 
-.menu-links{
-  width: 610px;
-  height: 39px;
-  background-color: #fff;
-  text-decoration: none;
+.nav-link {
+  color: #ff7500;
 }
 
 a {
   text-decoration: none;
-} */
+}
 
-.main {
+/* MAIN-HERO */
+.main-hero {
   width: 1440px;
   height: 550px;
   background-color: #252420;
@@ -35,8 +34,42 @@ a {
 
 }
 
-.hr {
-  color: #FF7500;
+hr {
+  color: #ff7500;
   width: 80px;
   height: 3px;
+}
+
+.main-hero-text {
+  width: 387px;
+  height: 328px;
+  color: #fff;
+}
+
+.main-python-text{
+  width: 339px;
+  height: 96px;
+  color: #fff;
+}
+
+.main-information {
+  width: 387px;
+  height: 96px;
+}
+
+.main-link {
+  background-color: #ff7500;
+  color: #fff;
+}
+
+.main-img {
+  width: 550px;
+  height: 550px;
+}
+
+/* MAIN-FEATURES */
+.main-features {
+  width: 1440px;
+  height: 936px;
+  background-color: #fff;
 }
