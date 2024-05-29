@@ -1,0 +1,42 @@
+/* .header {
+  width: 1440px;
+  height: 97px;
+  background-color: #fff;
+}
+
+
+.nav-logo {
+  width: 227;
+  height: 60px;
+}
+
+.nav-menu {
+  width: 610px;
+  height: 39px;
+  background-color: #fff;
+}
+
+.menu-links{
+  width: 610px;
+  height: 39px;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+} */
+
+.main {
+  width: 1440px;
+  height: 550px;
+  background-color: #252420;
+
+
+}
+
+.hr {
+  color: #FF7500;
+  width: 80px;
+  height: 3px;
+}
