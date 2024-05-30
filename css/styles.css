@@ -1,24 +1,40 @@
 /* HEADER */
 .header {
   width: 1440px;
-  height: 97px;
+  height: 92px;
   background-color: #fff;
 }
 
+.nav-menu {
+  width: 1100px;
+  height: 60px;
+}
 
 .nav-logo {
   width: 227;
   height: 60px;
 }
 
-.nav-menu {
+.nav-menu-links {
   width: 610px;
   height: 39px;
   background-color: #fff;
 }
 
-.nav-link {
+.nav-link-sign-up {
   color: #ff7500;
+}
+
+.nav-hr {
+  width: 92px;
+  height: 3px;
+  color: #ff7500;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 a {
@@ -50,11 +66,15 @@ hr {
   width: 339px;
   height: 96px;
   color: #fff;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .main-information {
   width: 387px;
   height: 96px;
+  font-weight: normal;
+  font-size: 16;
 }
 
 .main-link {
@@ -118,4 +138,92 @@ hr {
 .features-delivery {
   width: 196px;
   height: 29px;
+}
+.children-books {
+  width: 1100px;
+  height: 419px;
+  background-color: #252420;
+}
+
+.children-information {
+  width: 440px;
+  height: 291px;
+}
+
+.children-books-about {
+  width: 373px;
+  height: 96px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.history-book {
+  width: 440px;
+  height: 48px;
+  font-size: 16px;
+  color: #fff;
+}
+.book-cheap {
+  width: 440px;
+  height: 48px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.books-color {
+  color: #ff7500;
+}
+
+.book-buy {
+  width: 152px;
+  height: 39px;
+  background-color: #ff7500;
+  color: #fff;
+}
+
+.children-books-img {
+  width: 440px;
+  height: 440px;
+}
+
+.footer {
+  width: 1440px;
+  height: 507px;
+  background-color: #F8F8F8;
+}
+
+.footer-menu {
+  width: 1100px;
+  height: 60px;
+}
+
+.footer-logo {
+  width: 228px;
+  height: 60px;
+}
+
+.footer-icons {
+  width: 104px;
+  height: 24px;
+}
+
+.footer-hr {
+  width: 1100px;
+  height: 2px;
+}
+
+.footer-links {
+  width: 1100px;
+  height: 229px;
+}
+
+.footer-link {
+  width: 224px;
+  height: 19px;
+}
+
+.footer-link-text {
+  color: #252420;
+  font-size: 16px;
 }
