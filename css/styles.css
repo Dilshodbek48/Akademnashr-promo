@@ -1,219 +1,127 @@
-/* HEADER */
-.header {
-  width: 1440px;
-  height: 92px;
+.site-header {
   background-color: #fff;
 }
 
-.nav-menu {
-  width: 1100px;
-  height: 60px;
-}
-
-.nav-logo {
-  width: 227;
-  height: 60px;
-}
-
-.nav-menu-links {
-  width: 610px;
-  height: 39px;
-  background-color: #fff;
-}
-
-.nav-link-sign-up {
-  color: #ff7500;
-}
-
-.nav-hr {
-  width: 92px;
-  height: 3px;
-  color: #ff7500;
-}
-
-.nav-link {
-  color: #000;
+.sitenav-link {
   font-size: 13px;
-  font-weight: bold;
-}
-
-a {
+  line-height: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   text-decoration: none;
-}
-
-/* MAIN-HERO */
-.main-hero {
-  width: 1440px;
-  height: 548px;
-  background-color: #252420;
-
-
-}
-
-hr {
-  color: #ff7500;
-  width: 80px;
-  height: 3px;
-}
-
-.main-hero-text {
-  width: 387px;
-  height: 328px;
-  color: #fff;
-}
-
-.main-python-text{
-  width: 339px;
-  height: 96px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 40px;
-}
-
-.main-information {
-  width: 387px;
-  height: 96px;
-  font-weight: normal;
-  font-size: 16;
+  color: #000;
 }
 
 .main-link {
+  font-size: 13px;
+  line-height: 15px;
   background-color: #ff7500;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #252420;
   color: #fff;
 }
 
-.main-img {
+.hero-content {
+  width: 390px;
+}
+
+.orange-line{
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+
+.hero-heading {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+.hero-img {
   width: 550px;
   height: 550px;
 }
 
-/* MAIN-FEATURES */
-.main-features {
-  width: 1440px;
-  height: 936px;
-  background-color: #fff;
+.hero-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 
-.main-features-text {
-  width: 435px;
-  height: 172px;
-  color: #000;
+.features-heading {
+  width: 440px;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
 }
 
-.main-features-information {
-  width: 1100px;
-  height: 245px;
-}
-
-.main-features-about {
+.feature {
   width: 340px;
-  height: 245px;
 }
 
-.main-icon {
+.feature-icon-wrapper {
   width: 100px;
   height: 100px;
-  background-color: #eed1b8;
-  color: #ff7500
+  background-color: rgba(255, 117, 0, 0.2);
 }
 
-.features-booking {
-  width: 214px;
-  height: 29px;
-  color: #000;
+.feature-title {
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
 }
 
-.features-about-text {
-  width: 314px;
-  height: 72px;
-  color: #000;
+.feature-info {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 
-.features-books {
-  width: 170px;
-  height: 29px;
-
-}
-
-.features-delivery {
-  width: 196px;
-  height: 29px;
-}
-.children-books {
-  width: 1100px;
-  height: 419px;
+.promo {
   background-color: #252420;
-}
-
-.children-information {
-  width: 440px;
-  height: 291px;
-}
-
-.children-books-about {
-  width: 373px;
-  height: 96px;
   color: #fff;
-  font-weight: bold;
+}
+
+.promo-content {
+  width: 440px;
+}
+
+.promo-heading {
   font-size: 40px;
+  line-height: 48px;
 }
 
-.history-book {
-  width: 440px;
-  height: 48px;
+.promo-text {
   font-size: 16px;
-  color: #fff;
-}
-.book-cheap {
-  width: 440px;
-  height: 48px;
-  font-size: 16px;
-  color: #fff;
+  line-height: 1.5;
 }
 
-.books-color {
+.promo-highlight {
   color: #ff7500;
 }
 
-.book-buy {
-  width: 152px;
-  height: 39px;
-  background-color: #ff7500;
-  color: #fff;
-}
-
-.children-books-img {
+.promo-img {
   width: 440px;
   height: 440px;
+  object-fit: cover;
 }
 
-.footer {
-  width: 1440px;
-  height: 507px;
-  background-color: #F8F8F8;
+.site-footer {
+  background-color: #f8f8f8;
 }
 
-.footer-menu {
-  width: 1100px;
-  height: 60px;
-}
-
-.footer-logo {
-  width: 228px;
-  height: 60px;
-}
-
-.footer-icons {
-  width: 104px;
-  height: 24px;
-}
-
-.footer-hr {
-  width: 1100px;
+.site-footer-divider {
   height: 2px;
+  background-color: rgba(37, 36, 32, 0.5);
 }
 
-.footer-links {
+
+
+
+/* .footer-links {
   width: 1100px;
   height: 229px;
 }
@@ -226,4 +134,4 @@ hr {
 .footer-link-text {
   color: #252420;
   font-size: 16px;
-}
+} */
