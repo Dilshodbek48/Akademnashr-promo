@@ -1,3 +1,14 @@
+:root {
+  --list-text-color: #252420;
+  --text-color: #fff;
+  --main-text-color: #000;
+  --fond-size: 13px;
+  --font-text: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+  --brand-color: var(--brand-color);
+  --main-outline-color: orange;
+  --outline-color: var(--main-outline-color);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -12,7 +23,7 @@ body {
 }
 
 *:focus {
-  outline: 2px dotted orange;
+  outline: 2px dotted var(--brand-color);
   outline-offset: 3px;
 }
 
@@ -30,8 +41,8 @@ body {
 .site-header {
   padding-top: 16px;
   padding-bottom: 16px;
-  border-top: 5px solid #ff7500;
-  background-color: #fff;
+  border-top: 5px solid var(--brand-color);
+  background-color: var(--text-color);
 }
 
 .site-header-container {
@@ -79,19 +90,19 @@ body {
 }
 
 .sitenav-link {
-  font-size: 13px;
+  font-size: var(--fond-size);
   line-height: 15px;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #000;
+  color: var(--main-text-color);
   transition: color 0.4s ease,
   opacity 0.4s ease;
 }
 
 .sitenav-link:hover {
-  color: #ff7500;
+  color: var(--brand-color);
 }
 
 .sitenav-link:active {
@@ -103,11 +114,11 @@ body {
   display: inline-block;
   padding: 12px 24px;
   border-radius: 4px;
-  font-size: 13px;
+  font-size: var(--fond-size);
   line-height: 15px;
   font-weight: bold;
-  background-color: #ff7500;
-  color: #fff;
+  background-color: var(--brand-color);
+  color: var(--text-color);
   text-decoration: none;
   transition: opacity 0.4s ease;
 }
@@ -124,8 +135,8 @@ body {
 .hero {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: #252420;
-  color: #fff;
+  background-color: var(--list-text-color);
+  color: var(--text-color);
 }
 
 .hero-container {
@@ -144,7 +155,7 @@ body {
   border: 0;
   margin: 0;
   margin-bottom: 40px;
-  background-color: #ff7500;
+  background-color: var(--brand-color);
 }
 
 .hero-heading {
@@ -152,7 +163,7 @@ body {
   margin-bottom: 24px;
   font-size: 40px;
   line-height: 1.2;
-  font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+  font-family: var(--font-text);
 }
 
 .hero-text {
@@ -183,7 +194,7 @@ body {
   margin-bottom: 72px;
   font-size: 72px;
   line-height: 1.2;
-  font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+  font-family: var(--font-text);
   letter-spacing: 0.5px;
 }
 
@@ -220,7 +231,7 @@ body {
   margin-bottom: 12px;
   font-size: 24px;
   line-height: 1.2;
-  font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+  font-family: var(--font-text);
 }
 
 .feature-info {
@@ -239,8 +250,8 @@ body {
   align-items: center;
   padding: 64px;
   border-radius: 12px;
-  background-color: #252420;
-  color: #fff;
+  background-color: var(--list-text-color);
+  color: var(--text-color);
 }
 
 .promo-content {
@@ -252,7 +263,7 @@ body {
   margin-bottom: 24px;
   font-size: 40px;
   line-height: 48px;
-  font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+  font-family: var(--font-text);
 }
 
 .promo-info-wrapper {
@@ -269,7 +280,7 @@ body {
 }
 
 .promo-highlight {
-  color: #ff7500;
+  color: var(--brand-color);
 }
 
 .promo-img {
@@ -314,11 +325,11 @@ body {
 
 .site-footer-socials a {
   display: block;
-  color: #252420;
+  color: var(--list-text-color);
 }
 
 .site-footer-socials a:hover {
-  color: #ff7500;
+  color: var(--brand-color);
 }
 
 .site-footer-socials a:active {
@@ -364,11 +375,11 @@ body {
 
 .site-footer-links a {
   text-decoration: none;
-  color: #252420;
+  color: var(--list-text-color);
 }
 
 .site-footer-links a:hover {
-  color: #ff7500;
+  color: var(--brand-color);
 }
 
 .site-footer-links a:active {
