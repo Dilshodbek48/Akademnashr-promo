@@ -1,29 +1,42 @@
 :root {
+  --accent-color: #ff7500;
+  --text-fond: "Roboto", "Arial", sans-serif;
+  --heading-font: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+
+  /* Videoda qilinmagan. Pastdagi 4ta costum propertylarni o`zim qo`shdim!!! */
   --list-text-color: #252420;
   --text-color: #fff;
   --main-text-color: #000;
   --fond-size: 13px;
-  --font-text: "Roboto Condensed", "Roboto", "Arial", sans-serif;
-  --brand-color: var(--brand-color);
-  --main-outline-color: orange;
-  --outline-color: var(--main-outline-color);
 }
 
-* {
+html {
   box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding: 0;
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: var(--text-fond);
+  color: var(--main-text-color);
   letter-spacing: 0.5px;
 }
 
 *:focus {
-  outline: 2px dotted var(--brand-color);
+  outline: 2px dotted var(--accent-color);
   outline-offset: 3px;
 }
 
@@ -41,7 +54,7 @@ body {
 .site-header {
   padding-top: 16px;
   padding-bottom: 16px;
-  border-top: 5px solid var(--brand-color);
+  border-top: 5px solid var(--accent-color);
   background-color: var(--text-color);
 }
 
@@ -102,7 +115,7 @@ body {
 }
 
 .sitenav-link:hover {
-  color: var(--brand-color);
+  color: var(--accent-color);
 }
 
 .sitenav-link:active {
@@ -117,7 +130,7 @@ body {
   font-size: var(--fond-size);
   line-height: 15px;
   font-weight: bold;
-  background-color: var(--brand-color);
+  background-color: var(--accent-color);
   color: var(--text-color);
   text-decoration: none;
   transition: opacity 0.4s ease;
@@ -155,7 +168,7 @@ body {
   border: 0;
   margin: 0;
   margin-bottom: 40px;
-  background-color: var(--brand-color);
+  background-color: var(--accent-color);
 }
 
 .hero-heading {
@@ -163,7 +176,7 @@ body {
   margin-bottom: 24px;
   font-size: 40px;
   line-height: 1.2;
-  font-family: var(--font-text);
+  font-family: var(--heading-font);
 }
 
 .hero-text {
@@ -194,7 +207,7 @@ body {
   margin-bottom: 72px;
   font-size: 72px;
   line-height: 1.2;
-  font-family: var(--font-text);
+  font-family: var(--heading-font);
   letter-spacing: 0.5px;
 }
 
@@ -231,7 +244,7 @@ body {
   margin-bottom: 12px;
   font-size: 24px;
   line-height: 1.2;
-  font-family: var(--font-text);
+  font-family: var(--heading-font);
 }
 
 .feature-info {
@@ -263,7 +276,7 @@ body {
   margin-bottom: 24px;
   font-size: 40px;
   line-height: 48px;
-  font-family: var(--font-text);
+  font-family: var(--heading-font);
 }
 
 .promo-info-wrapper {
@@ -280,7 +293,7 @@ body {
 }
 
 .promo-highlight {
-  color: var(--brand-color);
+  color: var(--accent-color);
 }
 
 .promo-img {
@@ -329,7 +342,7 @@ body {
 }
 
 .site-footer-socials a:hover {
-  color: var(--brand-color);
+  color: var(--accent-color);
 }
 
 .site-footer-socials a:active {
@@ -379,7 +392,7 @@ body {
 }
 
 .site-footer-links a:hover {
-  color: var(--brand-color);
+  color: var(--accent-color);
 }
 
 .site-footer-links a:active {
